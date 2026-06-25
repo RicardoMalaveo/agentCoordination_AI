@@ -157,8 +157,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 660964872d189ac468b440dbde3df7d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AgentController
-  maxFuerza: 40
-  maxVelocidad: 20
+  maxFuerza: 50
+  maxVelocidad: 35
 --- !u!114 &6727551346507775875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -204,8 +204,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleAvoidanceBehaviour
   rb: {fileID: 0}
   blackboard: {fileID: 0}
-  radioObstaculoEvitar: 3.8
-  maxVelocidad: 4
+  radioObstaculoEvitar: 3.5
+  maxVelocidad: 2
   distanciaVistaSensor: 10
   Obstaculos:
     serializedVersion: 2
