@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CirclePattern : FormationPattern
 {
-    private float radioDeFormacion = 9.0f;
+    private float radioDeFormacion = 10.0F;
 
     public Vector3 GetDriftOffset(SlotAssignment[] slots)
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class LinePattern : FormationPattern
 {
-    private float separacionEntreSlots = 6.0f;
+    private float separacionEntreSlots = 8.0F;
 
     public Vector3 GetDriftOffset(SlotAssignment[] slots)
     {

@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrianglePattern : FormationPattern
 {
-    private float separacionFrenteYFlancos = 6.0f;
+    private float separacionFrenteYFlancos = 10.0F;
     public Vector3 GetDriftOffset(SlotAssignment[] slots)
     {
         if (slots == null || slots.Length == 0) return Vector3.zero;
